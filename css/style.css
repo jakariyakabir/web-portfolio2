@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-image: url("../images/header-bg.png");
+    background-size: cover;
+    
+}
+.smit{
+    color: #EC4C7A;
+    font-size: 25px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+section{
+    height: 500px;
+}
+button{
+    border: 0px solid;
+    border-radius: 2px;
+    background-image: linear-gradient(to left, #EC4F8E 0%, #EC4D83 100%);
+    padding: 10px;
+
+}
+button a{
+    text-decoration: none;
+    
+    color: white;
+}
+.biography{
+    background-image: url("../images/biography-bg.png");
+}
+.latest-work{
+    margin: 8% 8%;
+    background-image: url("../images/latest-work-bg.png");
+    background-size: cover;
+}
+.third-width{
+    width: 30%;
+    float: left;
+    margin-left:2%;
+    margin-top: 5%;
+}
+.third-width img{
+    width: 100%;
+}
+.latest-work h1{
+    text-align: center;
+}
+.last-section{
+    text-align: center;
+    background-image: url("../images/latest-work-bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.last-section button{
+    color: white;
+    border-radius: 4px;
+    width: 230px;
+    margin-top: 10px;
+}
+.last-section button p{
+    font-size: 9px;
+}
+.client{
+    height: 70px;
+}
+.owner h4{
+    font-size: 12px;
+}
+.owner h6{
+    font-size: 8px;
+    color: rgb(197, 197, 197);
+    margin-top: -7px;
+}
+footer{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(85, 85, 85);
+}
